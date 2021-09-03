@@ -13,7 +13,8 @@ echo root:password | 123
 
 # Xorg is installed in GUI part/ check WM or Display Manager
 
-pacman -S grub efibootmgr networkmanager network-manager-applet dialog wpa_supplicant mtools dosfstools reflector base-devel linux-headers xdg-user-dirs xdg-utils nfs-utils dnsutils bluez bluez-utils cups alsa-utils pipewire pipewire-alsa pipewire-pulse pipewire-jack bash-completion openssh rsync reflector acpi acpi_call virt-manager qemu qemu-arch-extra iptables-nft ipset firewalld flatpak acpid os-prober ntfs-3g terminus-font packagekit-qt5
+pacman -S grub efibootmgr networkmanager network-manager-applet dialog wpa_supplicant mtools dosfstools reflector base-devel linux-headers xdg-user-dirs xdg-utils nfs-utils dnsutils bluez bluez-utils cups alsa-utils pipewire pipewire-alsa pipewire-pulse pipewire-jack bash-completion openssh rsync reflector acpi acpi_call virt-manager qemu qemu-arch-extra iptables-nft ipset firewalld flatpak acpid os-prober ntfs-3g terminus-font pcmanfm lxappearance
+# packagekit-qt5
 
 # pacman -S --noconfirm xf86-video-intel
 # pacman -S --noconfirm xf86-video-amdgpu
